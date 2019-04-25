@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CurrencyFlag /> GIVEN a valid/supported currency AND a predefined size AND the size \`lg\` should display the flag in \`lg\` 1`] = `
+.c0 {
+  display: inline-block;
+  height: 24px;
+  width: 36px;
+  background-size: cover;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAMAAABjCgsuAAAAVFBMVEX/AAD/AwP/BQX/CQn/R0f/Skr/S0v/Tk7/cHD/cXH/hYX/lJT/q6v/r6//srL/t7f/xMT/zc3/zs7/z8//0ND/1dX/1tb/2Nj/29v/5ub/9/f////rrEQTAAAAbklEQVQ4y+3Ttw6AMAxF0QsJvRMI7f//kwExICFkjwje5uEMbnDJdhOe8oO3g7bVgSGKBxWwYOVgWasUsmpdhKAITAKJCQohqM+qFoIyPIqwlDbdGADTyKeUA+SKsXrXd86rNj3NytNw4/9AHwc7pig+ByeVQt0AAAAASUVORK5CYII=");
+}
+
+<span
+  className="c0"
+  size="lg"
+/>
+`;
+
+exports[`<CurrencyFlag /> GIVEN a valid/supported currency AND a predefined size AND the size \`md\` should display the flag in \`md\` 1`] = `
+.c0 {
+  display: inline-block;
+  height: 16px;
+  width: 24px;
+  background-size: cover;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAMAAABjCgsuAAAAVFBMVEX/AAD/AwP/BQX/CQn/R0f/Skr/S0v/Tk7/cHD/cXH/hYX/lJT/q6v/r6//srL/t7f/xMT/zc3/zs7/z8//0ND/1dX/1tb/2Nj/29v/5ub/9/f////rrEQTAAAAbklEQVQ4y+3Ttw6AMAxF0QsJvRMI7f//kwExICFkjwje5uEMbnDJdhOe8oO3g7bVgSGKBxWwYOVgWasUsmpdhKAITAKJCQohqM+qFoIyPIqwlDbdGADTyKeUA+SKsXrXd86rNj3NytNw4/9AHwc7pig+ByeVQt0AAAAASUVORK5CYII=");
+}
+
+<span
+  className="c0"
+  size="md"
+/>
+`;
+
+exports[`<CurrencyFlag /> GIVEN a valid/supported currency AND a predefined size AND the size \`sm\` should display the flag in \`sm\` 1`] = `
+.c0 {
+  display: inline-block;
+  height: 10px;
+  width: 16px;
+  background-size: cover;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAMAAABjCgsuAAAAVFBMVEX/AAD/AwP/BQX/CQn/R0f/Skr/S0v/Tk7/cHD/cXH/hYX/lJT/q6v/r6//srL/t7f/xMT/zc3/zs7/z8//0ND/1dX/1tb/2Nj/29v/5ub/9/f////rrEQTAAAAbklEQVQ4y+3Ttw6AMAxF0QsJvRMI7f//kwExICFkjwje5uEMbnDJdhOe8oO3g7bVgSGKBxWwYOVgWasUsmpdhKAITAKJCQohqM+qFoIyPIqwlDbdGADTyKeUA+SKsXrXd86rNj3NytNw4/9AHwc7pig+ByeVQt0AAAAASUVORK5CYII=");
+}
+
+<span
+  className="c0"
+  size="sm"
+/>
+`;
+
+exports[`<CurrencyFlag /> GIVEN a valid/supported currency AND a predefined size AND the size \`xl\` should display the flag in \`xl\` 1`] = `
+.c0 {
+  display: inline-block;
+  height: 32px;
+  width: 48px;
+  background-size: cover;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAMAAABjCgsuAAAAVFBMVEX/AAD/AwP/BQX/CQn/R0f/Skr/S0v/Tk7/cHD/cXH/hYX/lJT/q6v/r6//srL/t7f/xMT/zc3/zs7/z8//0ND/1dX/1tb/2Nj/29v/5ub/9/f////rrEQTAAAAbklEQVQ4y+3Ttw6AMAxF0QsJvRMI7f//kwExICFkjwje5uEMbnDJdhOe8oO3g7bVgSGKBxWwYOVgWasUsmpdhKAITAKJCQohqM+qFoIyPIqwlDbdGADTyKeUA+SKsXrXd86rNj3NytNw4/9AHwc7pig+ByeVQt0AAAAASUVORK5CYII=");
+}
+
+<span
+  className="c0"
+  size="xl"
+/>
+`;
+
+exports[`<CurrencyFlag /> GIVEN a valid/supported currency And no width or height should display the flag with default dimensions 1`] = `
+.c0 {
+  display: inline-block;
+  height: 16px;
+  width: 24px;
+  background-size: cover;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAMAAABjCgsuAAAAVFBMVEX/AAD/AwP/BQX/CQn/R0f/Skr/S0v/Tk7/cHD/cXH/hYX/lJT/q6v/r6//srL/t7f/xMT/zc3/zs7/z8//0ND/1dX/1tb/2Nj/29v/5ub/9/f////rrEQTAAAAbklEQVQ4y+3Ttw6AMAxF0QsJvRMI7f//kwExICFkjwje5uEMbnDJdhOe8oO3g7bVgSGKBxWwYOVgWasUsmpdhKAITAKJCQohqM+qFoIyPIqwlDbdGADTyKeUA+SKsXrXd86rNj3NytNw4/9AHwc7pig+ByeVQt0AAAAASUVORK5CYII=");
+}
+
+<span
+  className="c0"
+/>
+`;

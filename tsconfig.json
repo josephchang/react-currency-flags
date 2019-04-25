@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es5",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "jsx": "react",
+    "lib": ["es2015", "dom"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "**/__tests__/*", "examples"]
+}
