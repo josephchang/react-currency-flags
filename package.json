@@ -1,7 +1,7 @@
 {
   "name": "react-currency-flags",
   "version": "0.1.0",
-  "description": "React component for displaying parts of the currency value differently",
+  "description": "React styled-component for currency flags",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
