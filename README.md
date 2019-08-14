@@ -15,27 +15,17 @@ $ yarn add react-currency-flags
 ### NPM
 
 ```sh
-$ npm install react-currency-flag
+$ npm install react-currency-flags
 ```
 
 ## Usage
 
 ```js
-import CurrencyFlag from 'react-currency-flag';
+import CurrencyFlag from 'react-currency-flags';
 
-const CurrencyFlagComponent1 = () => (
-  <CurrencyFlag
-    currency="USD"
-    size="sm"
-  />
-);
+const CurrencyFlagComponent1 = () => <CurrencyFlag currency="USD" size="sm" />;
 
-const CurrencyFlagComponent2 = () => (
-  <CurrencyFlag
-    currency="EUR"
-    width={38}
-  />
-);
+const CurrencyFlagComponent2 = () => <CurrencyFlag currency="EUR" width={38} />;
 ```
 
 - **currency** (_required_, string): 3-letter ISO 4217 currency code (https://en.wikipedia.org/wiki/ISO_4217)
