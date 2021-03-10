@@ -52,7 +52,9 @@ export const currencyFlagDims: CurrencyFlagDimensions = {
   },
 };
 
-export const CurrencyFlag = styled.span<ICurrencyFlagStyledProps>`
+const CurrencyFlagImage = styled.span<ICurrencyFlagProps>`
+  background-image: url('${({ currency }) => getCurrencyImage(currency)}');
+  background-size: cover;
   display: inline-block;
   ${({ height, size, width }: ICurrencyFlagStyledProps) => {
     const { height: h, width: w } = size
@@ -64,11 +66,6 @@ export const CurrencyFlag = styled.span<ICurrencyFlagStyledProps>`
       width: ${w}px;
     `;
   }}
-  background-size: cover;
-`;
-
-const CurrencyFlagImage = styled(CurrencyFlag)<ICurrencyFlagProps>`
-  background-image: url("${({ currency }) => getCurrencyImage(currency)}");
 `;
 
 export default CurrencyFlagImage;
